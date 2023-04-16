@@ -48,4 +48,3 @@ names3 = {
     }
 }
 print(names3['Tom here'][(1, 2, 3, 4, 5)]['deeper'][False]['even deeper'][True]['YESS, found']['names3'][3]['hmm'])
-
