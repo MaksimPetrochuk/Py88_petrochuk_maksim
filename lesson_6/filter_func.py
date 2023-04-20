@@ -11,9 +11,9 @@ def len_4_and_lower(y):
         return y
 
 
-res_1 = tuple(filter(len_higher_4, names))
-res_2 = tuple(filter(len_4_and_lower, names))
+res = tuple(filter(len_higher_4, names))
+res_1 = tuple(filter(len_4_and_lower, names))
 
+print(res)
 print(res_1)
-print(res_2)
 

@@ -9,8 +9,8 @@ def odd_even(num):
 
 
 parity = list(map(odd_even, nums))
-res = {}
+result = {}
 for i in range(0, len(nums)):
-    res[nums[i]] = parity[i]
-print(res)
+    result[nums[i]] = parity[i]
+print(result)
 
