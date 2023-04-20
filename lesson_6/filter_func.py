@@ -12,8 +12,8 @@ def len_4_and_lower(y):
 
 
 res = tuple(filter(len_higher_4, names))
-res_1 = tuple(filter(len_4_and_lower, names))
+re = tuple(filter(len_4_and_lower, names))
 
 print(res)
-print(res_1)
+print(re)
 

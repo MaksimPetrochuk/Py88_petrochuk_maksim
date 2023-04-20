@@ -12,11 +12,11 @@ def function_222():
     print(function_222.__name__)
 
 
-def fyy():
+def fy():
     """
     This functions prints its name (bazfoo)
     """
-    print(bazfoo.__name__)
+    print(fy.__name__)
 
 
 def higher_order(x, count=10):
@@ -29,5 +29,5 @@ def higher_order(x, count=10):
 
 higher_order(function_1, 3)
 higher_order(function_222, 5)
-higher_order(fyy, 10)
+higher_order(fy, 10)
 
