@@ -8,3 +8,4 @@ def polydrom_check(word):
 
 res = tuple(filter(polydrom_check, some_polydrome))
 print(res)
+
