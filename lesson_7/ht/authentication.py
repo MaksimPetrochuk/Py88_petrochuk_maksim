@@ -60,9 +60,9 @@ def registration():
 
 
 print('You want to register or complete authentication? Send "r" to register, "a" to authenticate.')
-option = input()
+var = input()
 while True:
-    if option == 'a':
+    if var == 'a':
         word_n = get_name()
         while True:
             word_p = get_password()
@@ -71,10 +71,10 @@ while True:
             else:
                 print(f'Hello, {word_n}!')
                 break
-    if option == 'r':
+    if var == 'r':
         registration()
         break
     else:
         print('Incorrect input. Try again. Send "r" to register, "a" to authenticate.')
-        option = input()
+        var = input()
         continue
