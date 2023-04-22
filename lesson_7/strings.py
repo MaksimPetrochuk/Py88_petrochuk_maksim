@@ -12,5 +12,5 @@ f.write(f'{str_3}\n{str_4}\n')
 f.close()
 
 f = open('strings.txt', 'r')
-for line in f:
-    print(line)
+for row in f:
+    print(row)

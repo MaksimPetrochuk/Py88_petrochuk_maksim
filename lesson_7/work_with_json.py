@@ -1,6 +1,6 @@
 import json
 
-mapa = {
+info = {
     111111: ('Yana', 33),
     111112: ('Oleh', 32),
     111113: ('Helo', 31),
@@ -10,4 +10,4 @@ mapa = {
 }
 
 with open('data.json', 'w') as file:
-    json.dump(mapa, file, indent=' ')
+    json.dump(info, file, indent=' ')
