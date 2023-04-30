@@ -84,7 +84,7 @@ def registration():
 
 
 while True:
-    option = input('Enter "r" to registrate, "a" to authenticate, somthing else to exit: ')
+    option = input('Enter "r" to registrate, "a" to authenticate, something else to exit: ')
     menu = {
         'r': registration,
         'a': authentication
