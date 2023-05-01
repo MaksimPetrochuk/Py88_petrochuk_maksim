@@ -192,8 +192,7 @@ def ask_password():
 def ask_n_check_age():
     while True:
         age = input('Input your age: ')
-        _bool = age.isdigit()
-        if not _bool:
+        if not age.isdigit():
             print('Error. Age must be an integer number. Try again.')
             continue
         return age
