@@ -30,8 +30,8 @@ class User:
 
     @staticmethod
     def change_name():
+        check_logins = turn_logins_into_class_user()
         while True:
-            check_logins = turn_logins_into_class_user()
             if not check_logins:
                 print('There are no registered users. You should registrate.')
                 break
@@ -47,18 +47,18 @@ class User:
                 if user.password == password:
                     while True:
                         new_name = input('Set your new username: ')
-                        if find_user_by_name(new_name):
-                            print('Error. This username is already taken.')
-                            continue
                         if new_name == user.name:
                             print('Error. New name must differ from previous. Try again.')
+                            continue
+                        if find_user_by_name(new_name):
+                            print('Error. This username is already taken.')
                             continue
                         if not check_name(new_name):
                             continue
                         else:
                             new_user = User(new_name, user.password, user.age, user.key)
                             new_user.save(user)
-                            print('Successfully changed name.')
+                            print('Successfully changed your name.')
                             break
                 else:
                     print('Incorrect password. Try again')
@@ -68,8 +68,8 @@ class User:
 
     @staticmethod
     def change_age():
+        check_logins = turn_logins_into_class_user()
         while True:
-            check_logins = turn_logins_into_class_user()
             if not check_logins:
                 print('There are no registered users. You should registrate.')
                 break
@@ -91,7 +91,7 @@ class User:
                         else:
                             new_user = User(user.name, user.password, new_age, user.key)
                             new_user.save(user)
-                            print('Successfully changed age.')
+                            print('Successfully changed your age.')
                             break
                 else:
                     print('Incorrect password. Try again')
@@ -101,8 +101,8 @@ class User:
 
     @staticmethod
     def change_password():
+        check_logins = turn_logins_into_class_user()
         while True:
-            check_logins = turn_logins_into_class_user()
             if not check_logins:
                 print('There are no registered users. You should registrate.')
                 break
@@ -124,7 +124,7 @@ class User:
                         else:
                             new_user = User(user.name, new_password, user.age, user.key)
                             new_user.save(user)
-                            print('Successfully changed password.')
+                            print('Successfully changed your password.')
                             break
                 else:
                     print('Incorrect key. Try again')
@@ -136,8 +136,8 @@ class User:
 class AuthenticationSystem:
     @classmethod
     def authentication(cls):
+        check_logins = turn_logins_into_class_user()
         while True:
-            check_logins = turn_logins_into_class_user()
             if not check_logins:
                 print('There are no registered users. You should registrate.')
                 break
