@@ -244,10 +244,10 @@ def find_user_by_name(name):
 
 def change_option():
     while True:
-        _option = input('Enter "n", or "a", or "p" to change your name, age or password: ')
+        _option = input('Enter "n", or "a", or "p" to change your name, age or password, something else to exit: ')
         _action = menu_2.get(_option)
         if not _action:
-            continue
+            break
         _action()
         break
 
@@ -263,8 +263,8 @@ menu_2 = {
         'p': User.change_password
     }
 while True:
-    print('Enter "r" to registrate, "a" to authenticate, ', end=' ')
-    print('"ch" to change your data, something else to exit: ')
+    print('Enter "r" to registrate, "a" to authenticate, ', end='')
+    print('"ch" to change your data, something else to exit: ', end='')
     option = input()
     action = menu_1.get(option)
     if not action:
