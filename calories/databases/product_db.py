@@ -15,7 +15,7 @@ class DBProducts:
                     data = file.read()
                     return [] if not data else json.loads(data)
             except OSError:
-                print('File with logins do not exists so it has been created.')
+                print('File with products do not exists so it has been created.')
                 with open(cls.path, 'w'):
                     pass
 
