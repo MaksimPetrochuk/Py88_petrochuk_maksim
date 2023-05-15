@@ -26,5 +26,33 @@
   "fats": "16.7",
   "carbohydrates": "13.4",
   "calories": "247.2"
+ },
+ {
+  "name": "milk",
+  "protein": "3",
+  "fats": "3.6",
+  "carbohydrates": "4.7",
+  "calories": "63.2"
+ },
+ {
+  "name": "apple-grape juice",
+  "protein": "0.2",
+  "fats": "0",
+  "carbohydrates": "12",
+  "calories": "50"
+ },
+ {
+  "name": "yogurt",
+  "protein": "6",
+  "fats": "3.5",
+  "carbohydrates": "13",
+  "calories": "107.5"
+ },
+ {
+  "name": "curd",
+  "protein": "15",
+  "fats": "7",
+  "carbohydrates": "1.5",
+  "calories": "130"
  }
 ]
