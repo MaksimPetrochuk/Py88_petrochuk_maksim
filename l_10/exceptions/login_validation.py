@@ -1,13 +1,17 @@
 import sys
+import re
 
 
 class LoginValidation(Exception):
     @staticmethod
     def check_name(name):
         try:
-            assert len(name) < 3
-            assert len(name) > 15
+            assert re.match("^[a-zA-Z0-9!# %'*+/=?^_`{|}~-]+"
+                            "((\\.[a-zA-Z0-9!# %'*+/=?^_`{|}~-]+)+)?@"
+                            "(\\.?[a-zA-Z0-9]"
+                            "([a-zA-Z0-9-]{,61}"
+                            "[a-zA-Z0-9])?){,5}$", name) is not None
             return name
         except AssertionError:
-            print('LoginValidationError: Username must be of 3 to 15 characters.')
+            print('LoginValidationError. Username should meet the Format.')
             sys.exit()
