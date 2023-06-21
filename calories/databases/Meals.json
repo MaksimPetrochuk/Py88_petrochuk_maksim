@@ -1,37 +1,42 @@
 [
  {
   "date": "2023-05-11 19:46:42.603237",
-  "mass": "200",
+  "grams": "200",
   "product": "pork"
  },
  {
   "date": "2023-05-11 20:13:23.017710",
-  "mass": "500",
+  "grams": "500",
   "product": "apple"
  },
  {
   "date": "2023-05-11 20:15:53.319340",
-  "mass": "100",
+  "grams": "100",
   "product": "pork"
  },
  {
   "date": "2023-05-11 20:18:13.959095",
-  "mass": "100",
+  "grams": "100",
   "product": "pork"
  },
  {
   "date": "2023-05-11 20:23:45.789501",
-  "mass": "50",
+  "grams": "50",
   "product": "apple"
  },
  {
   "date": "2023-05-11 20:51:42.025565",
-  "mass": "100",
+  "grams": "100",
   "product": "yellow schweppes"
  },
  {
   "date": "2023-05-11 21:31:31.542803",
-  "mass": "200",
+  "grams": "200",
   "product": "meatballs"
+ },
+ {
+  "date": "2023-06-19 21:49:27.651922",
+  "grams": "100",
+  "product": "apple"
  }
 ]

@@ -54,5 +54,12 @@
   "fats": "7",
   "carbohydrates": "1.5",
   "calories": "130"
+ },
+ {
+  "name": "some_product",
+  "protein": 40.0,
+  "fats": 10.0,
+  "carbohydrates": 0.0,
+  "calories": 60.0
  }
 ]
