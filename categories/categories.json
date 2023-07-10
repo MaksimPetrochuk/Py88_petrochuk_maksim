@@ -1,0 +1,134 @@
+{
+  "Table": [
+    {
+      "CategoryListId": 5138,
+      "CategoryListName": "Овощи и фрукты",
+      "Child": [
+        {
+          "CategoryListId": 5062,
+          "CategoryListName": "Овощи",
+          "Child": [
+            {
+              "CategoryListId": 5164,
+              "CategoryListName": "Имбирь"
+            },
+            {
+              "CategoryListId": 5319,
+              "CategoryListName": "Кабачки"
+            },
+            {
+              "CategoryListId": 4948,
+              "CategoryListName": "Капуста"
+            }
+          ]
+        },
+        {
+          "CategoryListId": 5292,
+          "CategoryListName": "Фрукты",
+          "Child": [
+            {
+              "CategoryListId": 5690,
+              "CategoryListName": "Абрикос",
+              "Child" : [
+                {
+                  "CategoryListId": 1,
+                  "CategoryListName": "Абрикос с косточкой"
+                },
+                {
+                  "CategoryListId": 2,
+                  "CategoryListName": "Абрикос без косточки"
+                }
+              ]
+            },
+            {
+              "CategoryListId": 5277,
+              "CategoryListName": "Авокадо"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryListId": 5194,
+      "CategoryListName": "Молоко, яйца",
+      "Child": [
+        {
+          "CategoryListId": 5145,
+          "CategoryListName": "Яйца",
+          "Child": [
+            {
+              "CategoryListId": 5139,
+              "CategoryListName": "Яйца куриные"
+            },
+            {
+              "CategoryListId": 5031,
+              "CategoryListName": "Яйца перепелиные"
+            }
+          ]
+        },
+        {
+          "CategoryListId": 5198,
+          "CategoryListName": "Молоко, сливки",
+          "Child": [
+            {
+              "CategoryListId": 5193,
+              "CategoryListName": "Коровье молоко"
+            }
+          ]
+        },
+        {
+          "CategoryListId": 5094,
+          "CategoryListName": "Кефир, кисломолочные изделия",
+          "Child": [
+            {
+              "CategoryListId": 5130,
+              "CategoryListName": "Кефир, бифидопродукты"
+            },
+            {
+              "CategoryListId": 5147,
+              "CategoryListName": "Ряженки, простокваши, сыворотки"
+            },
+            {
+              "CategoryListId": 5306,
+              "CategoryListName": "Закваски"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CategoryListId": 5329,
+      "CategoryListName": "Хлеб, выпечка",
+      "Child": [
+        {
+          "CategoryListId": 5313,
+          "CategoryListName": "Хлеб, лепешки, тарталетки",
+          "Child": [
+            {
+              "CategoryListId": 5089,
+              "CategoryListName": "Хлеб"
+            },
+            {
+              "CategoryListId": 5143,
+              "CategoryListName": "Батон, багет"
+            }
+          ]
+        },
+        {
+          "CategoryListId": 5545,
+          "CategoryListName": "Торты, пирожные",
+          "Child": [
+            {
+              "CategoryListId": 5543,
+              "CategoryListName": "Торты"
+            },
+            {
+              "CategoryListId": 5544,
+              "CategoryListName": "Пирожные"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
